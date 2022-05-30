@@ -1,0 +1,40 @@
+
+public class Persona{
+    string nombre;
+    int edad;
+    double peso;
+
+//Constructor por defecto, sin parámetros
+public Persona (){
+    /Código
+   }
+
+//Constructor con parámetros
+public Persona (string nombre, int pedad, double ppeso){
+    //Código
+}
+public string getombre(){
+    //función obtener nombre de la clase Persona
+}
+public Void setNombre (string nombre){
+    //Método para introducir nombre
+}
+public int getEdad(){
+    //función para obtener edad
+}
+public Void setEdad(int edad){
+    //Método para intrducir la Edad
+}
+public double getPeso(){
+    //función para obener el peso
+}
+public void setPeso(double peso){
+    //método para introducir el peso
+}
+public double calculaIndiceMasaCorporal(){
+    //declaramos la función (definida en algun otro lugar) donde Calculamos el Indice de masa corporal a través de los métodos creados con su fórmula 
+}
+public int anioDeNacimiento(){
+    //declaramos la función año de nacimiento para introducir el año de nacimiento de la Clase persona
+}
+}
